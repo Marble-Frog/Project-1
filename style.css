@@ -40,8 +40,13 @@ th{
   margin-right: auto;
 }
 #med{
-  width: 50%;
+  width: 30%;
   float: left;
+}
+.three{
+  width:50%;
+  background-color: cadetblue;
+  text-align: center;
 }
 
 @media (max-width: 1000px){
@@ -57,7 +62,15 @@ th{
   p{
     font-size: 10px;
   }
+  #about{
+    width:60%;
+  }
 }
+
+
+
+
+
 @media (max-width: 800px){
   h1{
     font-size:15px;
@@ -70,5 +83,8 @@ th{
   }
   p{
     font-size:10px;
+  }
+  #about{
+    width:90%;
   }
 }
