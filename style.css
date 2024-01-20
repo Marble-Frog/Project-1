@@ -40,10 +40,20 @@ th{
   margin-right: auto;
   
 }
-#med{
-  width: 600px;
-  float: left;
+#picture-1{
+  width: 400px;
   border-radius: 5px;
+  float: left;
+}
+#picture-2{
+  width: 400px;
+  border-radius: 5px;
+  float: left;
+}
+#picture-3{
+  width: 400px;
+  border-radius: 5px;
+  float: right;
 }
 
 .three{
@@ -55,15 +65,17 @@ th{
     gap: 5x;
     justify-content: center;
     margin-bottom: 25px;
-    width:500px;
+    margin:5px;
+    width:400px;
     border-radius: 10px;
+    float: left;
     
     
 }
 #tri{
   text-align: center;
 }
-@media (max-width: 1135px){
+@media (max-width: 1200px){
   h1{
     font-size:25px;
   }
@@ -76,15 +88,29 @@ th{
   p{
     font-size: 15px;
   }
-  #med{
+  #picture-1{
+    width:50%;
+    float: none;
+  }
+  #picture-2{
     width:80%;
     float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #picture-3{
+    width:80%;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .three{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
   }
 }
 
@@ -113,13 +139,23 @@ th{
   #about{
     width:90%;
   }
-  #med{
+  #picture-1{
     float: none;
     margin-left: auto;
     margin-right: auto;
     height: 50%;
-    
-  
+  }
+  #picture-2{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+  }
+  #picture-3{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
   }
   .three{
     text-align: center;
