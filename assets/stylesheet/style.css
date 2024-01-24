@@ -101,12 +101,16 @@ th a {
 #form-table{
   margin-left: auto;
   margin-right: auto;
-  width:182px;
-  text-align: center;
-  background-color:thistle
+  background-color:aquamarine;
+  width:500px;
+  border-radius:3px;
+}
+#table2{
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #table2 td{
-  width: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -114,6 +118,7 @@ th a {
   text-align: center;
   font-size: 50px;
   background-color:turquoise;
+  
 }
 
 
@@ -153,7 +158,6 @@ th a {
     width:60%;
     height:50%;
   }
-  
 }
 
 @media (max-width: 650px){
@@ -199,5 +203,12 @@ th a {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  #form-table{
+    width: 80%;
+  }
+  #table2{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
