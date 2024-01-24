@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mindfulness</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
                 </th>
                 
                 <th>
-                    <a href="#sign up">Sign up</a>
+                    <a href="#sign-up">Sign up</a>
                 </th>
                 <th>
                     <a href="#contact">Contact us</a>
@@ -59,10 +60,10 @@
             </p>
     </section>
     <br>
-    <div id="container2"> 
-        <div class="centered">  
+    <div id="tri"> 
+        <div class="two">  
             <section class="three">
-                <img src="assets/Images/meditation2.jpg" alt="A woman meditating" id="picture-1">
+                <img src="assets/Images/meditation2.jpg" alt="A woman meditating" id="picture">
                 <h3 class="main-text">Meditation</h3>
                 <p class="sub-text">
                     Meditation is a well know method of self improvement and its for a good reason.
@@ -72,9 +73,9 @@
                 </p>
             </section>
         </div>
-        <div class="centered">    
+        <div class="two">    
             <section class="three">
-                <img src="assets/Images/yoga.jpg" alt="A woman doing yoga" id="picture-2">
+                <img src="assets/Images/yoga.jpg" alt="A woman doing yoga" id="picture">
                 <h3 class="main-text">Yoga</h3>
                 <p class="sub-text">
                     Yoga is a way of understanding your body and its limits.
@@ -84,9 +85,9 @@
                     muscle pain and help your mental wellbeing too.
                </p>
         </div>
-        <div class="centered">
+        <div class="two">
             <section class="three">
-                <img src="assets/Images/Mindfulness4.png" alt="A woman doing yoga" id="picture-2">
+                <img src="assets/Images/Mindfulness4.png" alt="A woman doing yoga" id="picture">
                 <h3 class="main-text">Mindfulness</h3>
                 <p class="sub-text">
                     Mindfulness is a type of meditation but it kind of different in a way.
@@ -97,7 +98,43 @@
                 </p>
             </section>
         </div>
-    </div>   
+    </div>
+    <div id="form-table">
+      <h3>Sign up</h3>
+      <form id="details" method="POST" action="http://formdump.codeinstitute.net/">
+        <table id="details">
+            <tr>
+                <td>
+                   <label for="fname">Your First Name:</label>
+                   <input type="text" id="fname" name="fname" required class="form-input"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="lname">Your Last Name:</label>
+        <input type="text" id="lname" name="lname" required class="form-input">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="email">Your Email Address:</label>
+        <input type="email" id="email" name="email" required class="form-input">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="number">Your Phone Number</label>
+        <input type="tel" id="number" name="number" required class="form-input">
+                </td>
+            </tr>
+        </table>
+      </form>  
+    </div> 
+    <footer>
+        <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+    </footer>  
 
 
         
