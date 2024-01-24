@@ -60,7 +60,7 @@ th{
 }
 th a {
   text-decoration: none;
-  color: cornsilk;
+  color:gold;
 }
 .sub-text{
   font-family: "Rubik", sans-serif;
@@ -114,11 +114,16 @@ th a {
   margin-left: auto;
   margin-right: auto;
 }
+input{
+  background-color: gold;
+}
 #contact-us{
   text-align: center;
   font-size: 50px;
-  background-color:turquoise;
-  
+  background-color:turquoise; 
+}
+#contact-us a{
+  color:gold;
 }
 
 
