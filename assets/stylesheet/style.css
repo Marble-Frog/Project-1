@@ -20,6 +20,15 @@ body{
   transform: translate(-50%, -50%);
   margin-top: 10px;
 }
+#about{
+  width:500px;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .centered{
     text-align: center;
     margin-left: auto;
@@ -37,16 +46,14 @@ body{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size:30px;
+  font-size:25px;
 }
 #navi{
   margin-left: auto;
   margin-right: auto;
   font-size:18px;
-  width:70%;
+  width:100%;
   background-color:turquoise;
-  border-style:solid;
-  border-color:#3d6dfc;
 }
 th{
   padding: 10px;
@@ -57,8 +64,7 @@ th a {
 }
 .sub-text{
   font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:100%;
+  font-weight:100;
   font-style: normal;
   font-size:16px;
 }
@@ -69,20 +75,11 @@ th a {
   margin-right: auto;
   width: 100%;
 }
-#picture{
+.picture{
   width: 400px;
   border-radius: 5px;
 }
-#about{
-  width:500px;
-  background-color: aquamarine;
-  padding: 5px;
-  border-radius: 3px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+
 .two{
   text-align: center;
   margin-left: auto;
@@ -94,7 +91,7 @@ th a {
     padding: 15px 10px 15px 10px;
     display: flex;
     flex-flow: row wrap;
-    gap: 5x;
+    gap:5px;
     justify-content: center;
     margin-bottom: 25px;
     width:400px;
@@ -104,12 +101,19 @@ th a {
 #form-table{
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-
+  width:182px;
+  text-align: center;
+  background-color:thistle
+}
+#table2 td{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer{
   text-align: center;
   font-size: 50px;
+  background-color:turquoise;
 }
 
 
@@ -135,7 +139,7 @@ footer{
     margin-right: auto;
     width:100%;
   }
-  #picture{
+  .picture{
     width:100%;
     display:block;
     text-align: center;
@@ -177,7 +181,7 @@ footer{
   #about{
     width:90%;
   }
-  #picture-1{
+  .picture{
     width:100%;
     float: none;
   }
