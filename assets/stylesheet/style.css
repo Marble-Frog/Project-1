@@ -125,6 +125,10 @@ input{
 #contact-us a{
   color:gold;
 }
+#contact-info{
+  display: grid;
+  grid-template-columns: 10fr 10fr 10fr;
+}
 
 
 
