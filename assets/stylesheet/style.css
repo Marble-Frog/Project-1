@@ -52,6 +52,7 @@ nav{
   position: sticky;
   top:0;
   left: 0;
+  text-align: center;
 }
 #table1{
   margin-left: auto;
