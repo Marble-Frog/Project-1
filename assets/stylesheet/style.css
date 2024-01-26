@@ -53,7 +53,7 @@ body{
   margin-right: auto;
   font-size:18px;
   width:100%;
-  background-color:turquoise;
+  background-color:#00cc3a;
 }
 th{
   padding: 10px;
@@ -115,7 +115,7 @@ th a {
   margin-right: auto;
 }
 input{
-  background-color: gold;
+  background-color:#00cc3a;
 }
 #contact-us{
   text-align: center;
@@ -123,7 +123,7 @@ input{
   background-color:turquoise; 
 }
 #contact-us a{
-  color:gold;
+  color:#017d25;
 }
 #contact-info{
   display: grid;
