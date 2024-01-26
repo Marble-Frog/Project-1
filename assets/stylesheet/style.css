@@ -48,6 +48,9 @@ body{
   font-style: normal;
   font-size:25px;
 }
+nav{
+  position: sticky;
+}
 #table1{
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +63,7 @@ td{
 }
 td a {
   text-decoration: none;
-  color:gold;
+  color:purple;
 }
 .sub-text{
   font-family: "Rubik", sans-serif;
