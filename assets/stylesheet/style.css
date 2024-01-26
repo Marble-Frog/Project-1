@@ -9,9 +9,9 @@ body{
   background-color:paleturquoise;
 }
 #bmm{
-    width: 50%;
-    margin-top: 0%;
-    border-radius: 10px;
+  width: 50%;
+  margin-top: 0%;
+  border-radius: 10px;
 }
 #box{
   position: absolute;
@@ -30,9 +30,9 @@ body{
   margin-right: auto;
 }
 .centered{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #name{
   font-family: "Lato", sans-serif;
@@ -50,8 +50,8 @@ body{
 }
 nav{
   position: sticky;
-  top:0%;
-  left: 0%;
+  top:0;
+  left: 0;
 }
 #table1{
   margin-left: auto;
@@ -84,24 +84,23 @@ td a {
   width: 400px;
   border-radius: 5px;
 }
-
 .two{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-.three{
-    text-align: center;
-    background-color: aqua;
-    padding: 15px 10px 15px 10px;
-    display: flex;
-    flex-flow: row wrap;
-    gap:5px;
-    justify-content: center;
-    margin-bottom: 25px;
-    width:400px;
-    height:550px;
-    border-radius: 10px; 
+.one{
+  text-align: center;
+  background-color: aqua;
+  padding: 15px 10px 15px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  gap:5px;
+  justify-content: center;
+  margin-bottom: 25px;
+  width:400px;
+  height:550px;
+  border-radius: 10px; 
 }
 #sign-up{
   margin-left: auto;
@@ -134,10 +133,7 @@ input{
   display: grid;
   grid-template-columns: 10fr 10fr 10fr;
 }
-
-
-
-
+/*First screen size changes*/
 @media (max-width: 1300px){
   #name{
     font-size:25px;
@@ -165,7 +161,7 @@ input{
     margin-left: auto;
     margin-right: auto;
   }
-  .three{
+  .one{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -173,7 +169,7 @@ input{
     height:50%;
   }
 }
-
+/*Second Screen size changes*/
 @media (max-width: 650px){
   #name{
     font-size:20px;
