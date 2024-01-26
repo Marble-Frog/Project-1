@@ -48,17 +48,17 @@ body{
   font-style: normal;
   font-size:25px;
 }
-#navi{
+#table1{
   margin-left: auto;
   margin-right: auto;
   font-size:18px;
   width:100%;
   background-color:#00cc3a;
 }
-th{
+td{
   padding: 10px;
 }
-th a {
+td a {
   text-decoration: none;
   color:gold;
 }
@@ -123,7 +123,7 @@ input{
   background-color:turquoise; 
 }
 #contact-us a{
-  color:#017d25;
+  color:#054996;
 }
 #contact-info{
   display: grid;
@@ -143,7 +143,7 @@ input{
   .sub-text{
     font-size: 14px;
   }
-  #navi{
+  #table1{
     margin-left: auto;
     margin-right: auto;
   }
@@ -179,7 +179,7 @@ input{
   .sub-text{
     font-size: 12px;
   }
-  #navi{
+  #table1{
     font-size:10px;
     margin-left: auto;
     margin-right: auto;
@@ -205,5 +205,8 @@ input{
     width:80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  input{
+    width: 90%;
   }
 }
