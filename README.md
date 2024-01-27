@@ -1,10 +1,7 @@
 <h1>The Manchester Self-Improvement Club</h1>
-The Manchester Self-Improvement Club or MISC for short is a landing page for people looking to improve themselves.
-The MISC offer a guide in 3 different methods of self-improvement
+The Manchester Self-Improvement Club or MISC for short is a landing page for people looking to improve themselves. The MISC offer a guide in 3 different methods of self-improvement
 
-Users of this website will be able to learn more about the 3 methods: what benifits they can expect, what
-area each of the methods with cover, contact information and a sign up form. The site is targeted towards
-people who want to learn more about self-improvement.
+Users of this website will be able to learn more about the 3 methods: what benifits they can expect, what area each of the methods with cover, contact information and a sign up form. The site is targeted towards people who want to learn more about self-improvement.
 <div align="center">
     <img src="assets/images(readme)/2024-01-27-19-40-55.png">
 </div>    
