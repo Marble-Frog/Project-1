@@ -134,7 +134,7 @@ input{
   display: grid;
   grid-template-columns: 10fr 10fr 10fr;
 }
-/*First screen size changes*/
+/* Media queries */
 @media (max-width: 1300px){
   #name{
     font-size:25px;
@@ -170,7 +170,7 @@ input{
     height:50%;
   }
 }
-/*Second Screen size changes*/
+/* Smaller screen media querie */
 @media (max-width: 650px){
   #name{
     font-size:20px;
