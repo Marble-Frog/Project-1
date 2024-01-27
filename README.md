@@ -14,18 +14,26 @@ people who want to learn more about self-improvement.
 
 
 
-
 <h2>UX</h2>
 The target audience for MSIC are:
--People who want to improve themselves but dont know where to start
--People that suffer for anxiety or anxiousness
--People who want to explore the benifits of the 3 practices
--People that want to change some habits of there life
-
+<ul>People who want to improve themselves but dont know where to start
+<li>People that suffer for anxiety or anxiousness
+<li>People who want to explore the benifits of the 3 practices
+<li>People that want to change some habits of there life
+</ul>
 User goals are:
--Learn more about the 3 practices
--Develop better and healthier habits in there life
--
+<ul>
+<li>Learn more about the 3 practices
+<li>Develop better and healthier habits in there life
+<li>
+<li>
+</ul>
 <h1>Deployment</h1>
 <h1>Testing</h1>
 <h1>Wireframes</h1>
+<ul>
+<li>
+<li>
+<li>
+<li>
+</ul>
