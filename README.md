@@ -66,7 +66,7 @@ Users of this website will be able to learn more about the 3 methods: what benif
     <li>I have confirmed that the form works: requires entries in every field, will only accept an email in the email field and the  submit button works</li>
 </ul>
 <h3>Bugs</h3>
-   Solved bugs
+   <p>Solved bugs</p>
    <ul>
        <li>When I uploaded my project to github and try to deploy it, the links to my pictures didnt work, I discovered that this was because I had a / at the start of my src.</li>
        <li>When testing my sticky nav bar it didnt seem to stick to the top of the screen. This was because it was nested in the header so  the code would stick it to the header and not the body</li>
