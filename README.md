@@ -6,7 +6,8 @@ Users of this website will be able to learn more about the 3 methods: what benif
 area each of the methods with cover, contact information and a sign up form. The site is targeted towards
 people who want to learn more about self-improvement.
 <div align="center">
-    <img src="![2024-01-27-19-40-55](https://github.com/Marble-Frog/Project-1/assets/153522635/7e33ec5c-5144-4b11-a6ff-bdb8d92a9fd4)">
+    <img src="assets/images(readme)/2024-01-27-19-40-55.png">
+</div>    
 
 
 
